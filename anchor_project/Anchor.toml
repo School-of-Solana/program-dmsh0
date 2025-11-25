@@ -6,10 +6,10 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-event_ticketing = "CNZ9yfQwrD6N3EkhxRPFjptuHu4Z71ufrTte8zG5TkwY"
+event_ticketing = "5wkLPJVMaiemo3Nn5QdAgdifjZig3DWUR9pxAGAeCXZJ"
 
 [programs.devnet]
-event_ticketing = "CNZ9yfQwrD6N3EkhxRPFjptuHu4Z71ufrTte8zG5TkwY"
+event_ticketing = "5wkLPJVMaiemo3Nn5QdAgdifjZig3DWUR9pxAGAeCXZJ"
 
 [registry]
 url = "https://api.apr.dev"
