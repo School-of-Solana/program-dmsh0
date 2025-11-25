@@ -5,7 +5,7 @@ import json from "@rollup/plugin-json";
 export default {
   input: "ports.js",
   output: {
-    file: "ports-bundle.js",
+    file: "dist/ports-bundle.js",
     format: "iife",
     name: "PortsModule",
     globals: {
