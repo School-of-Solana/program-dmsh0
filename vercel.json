@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "public",
-  "installCommand": "npm install --prefix frontend"
+  "installCommand": "(cd frontend && npm install)"
 }
