@@ -4,11 +4,12 @@
   "type": "module",
   "description": "Solana Event Ticketing Frontend",
   "scripts": {
-    "build": "npm run clean && npm run build:elm && npm run build:ports && npm run build:copy",
+    "build": "npm run clean && npm run build:elm && npm run build:ports && npm run build:copy && npm run build:deploy",
     "clean": "rm -rf dist && mkdir -p dist",
     "build:elm": "npx elm make src/Main.elm --output=dist/elm.js --optimize",
     "build:ports": "node_modules/.bin/rollup -c rollup.config.js",
-    "build:copy": "cp index.html event_ticketing.json dist/"
+    "build:copy": "cp index.html event_ticketing.json dist/",
+    "build:deploy": "cd .. && rm -rf public && cp -r frontend/dist public"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.31.1",

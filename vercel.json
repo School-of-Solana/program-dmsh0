@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm install && npm run build && cd ..",
-  "outputDirectory": "frontend/dist"
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "public"
 }
