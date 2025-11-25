@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "installCommand": "echo 'No install needed'",
+  "installCommand": "cd frontend && npm install",
   "framework": null
 }
