@@ -722,7 +722,6 @@ viewHomePage model =
             Nothing ->
                 div [ class "help-text" ]
                     [ p [] [ text "👋 Welcome! Please connect your Phantom wallet first." ]
-                    , p [] [ text "Make sure Phantom is set to 'Localhost' network." ]
                     ]
 
             Just wallet ->
