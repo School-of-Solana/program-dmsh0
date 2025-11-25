@@ -1,4 +1,4 @@
 {
-  "buildCommand": "ls -la && pwd && cd frontend && npm install && npm run build && cd .. && mkdir -p public && cp -r frontend/dist/* public/ && echo 'Build complete' && ls -la public",
+  "buildCommand": "npm install && npm run build && mkdir -p ../public && cp -r dist/* ../public/ && echo 'Build complete' && ls -la ../public",
   "outputDirectory": "public"
 }
