@@ -1,4 +1,5 @@
 {
-  "buildCommand": "npm install && npm run build && mkdir -p ../public && cp -r dist/* ../public/ && echo 'Build complete' && ls -la ../public",
-  "outputDirectory": "public"
+  "buildCommand": "npm install && npm run build && mkdir -p ../public && cp -r dist/* ../public/ && echo 'Build complete' && ls -la .. && ls -la ../public",
+  "outputDirectory": "public",
+  "rootDirectory": "."
 }
